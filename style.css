@@ -1,3 +1,40 @@
 @charset "UTF-8";
 /* CSS Document */
+.topnav{
+	background-color: white;
+	overflow: hidden;
+}
+
+.topnav a{
+	color:red;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 200;
+	float:left;
+	padding-bottom: 14px;
+	padding-left: 16px;
+	padding-right: 14px;
+	padding-top: 12px;
+	
+}
+
+
+.topnav a:hover{
+	background-color: gainsboro;
+	color:black;
+	font-size: 19pt;
+	
+}
+
+.topnav a.active{
+	background-color:lightgray;
+	color;red;
+	
+}
+
+body,html{
+	height: 100%
+}
+
 
