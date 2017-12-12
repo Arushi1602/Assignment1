@@ -1,21 +1,24 @@
 @charset "UTF-8";
 /* CSS Document */
 .topnav{
-	background-color: white;
+	background-color: gainsboro;
 	overflow: hidden;
+	border:solid;
+	border-color: red;
 }
 
 .topnav a{
 	color:red;
 	text-align: center;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 14pt;
 	font-weight: 200;
 	float:left;
-	padding-bottom: 14px;
-	padding-left: 16px;
-	padding-right: 14px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-right: 10px;
 	padding-top: 12px;
+	
 	
 }
 
@@ -23,13 +26,13 @@
 .topnav a:hover{
 	background-color: gainsboro;
 	color:black;
-	font-size: 19pt;
+	font-size: 16pt;
 	
 }
 
 .topnav a.active{
 	background-color:lightgray;
-	color;red;
+	color:red;
 	
 }
 
@@ -37,4 +40,36 @@ body,html{
 	height: 100%
 }
 
+.hero-image{
+	background-image: url(images/book-fair-678264_1280.jpg);
+	height:90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+	border: inset;
+	border-width: 5px;
+	border-color: red;
+}
 
+.hero-text{
+	text-align:center;
+	position: absolute;
+	top:50%;
+	left:50%;
+	color:red;
+	font-size: 23px;
+	background-color:rgba(236,242, 243, 0.9);
+	transform:translate(-50%,-50%);
+	text-shadow: 1px 1px 1px white;
+		
+		
+}
+
+
+h1{
+	color:Red;
+	background-color: rgba(133,133,133,0.5);
+	
+	
+}
