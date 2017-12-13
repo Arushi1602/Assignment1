@@ -126,9 +126,13 @@ p{
 }
 
 footer{
+	clear: left;
 	color:red;
 	background-color:gainsboro;
 	text-shadow: 1px 1px 1px black;
 	text-align: center;
 }
 
+.gallery img{
+	float: left;
+}
